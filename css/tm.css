@@ -1,0 +1,84 @@
+/* This website is very old, so please don't die looking at this shitty ass code.
+Development of it started back in early 2021 and later that year it got released.
+After 2 years of being purely a blogging page i took it down and reworked it before putting it 
+back online in 2025 it got taken down again just to get reworked once more making it more simple
+and removing useless features.
+It got released once again in December of 2025 and will most likely stay like this now. */
+
+body {
+	background-image: url('../images/bg.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin:0px;
+	color: #6a747c;
+	font: 18px/24px "Whitney-Medium","DejaVu Sans Condensed","Lucida Grande", Geneva, Arial, Verdana, sans-serif;
+}
+
+#notice-wrap {
+    padding: 20px;
+    font-family: "Tahoma";
+}
+#notice {
+    padding: 30px;
+    background-color: #e11414;
+    font-size: 2rem;
+    color: white;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#tm {
+    animation: 0.1s ease-in 0.1s fade-in;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    color: #4a0101;
+    font-family: "Tahoma";
+    padding: 170px;
+}
+
+.file {
+    background-color: #4a0101;
+    color: black;
+    width: 100%;
+    padding: 5px;
+}
+
+.file > a {
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+.file > a:hover {
+    background-color: white;
+}
+
+.file > p {
+    margin-top: 0px;
+    padding-left: 15px;
+}
+
+.link {
+    color: black;
+    transition: 0.3s;
+}
+
+.link:hover {
+    background-color: white;
+
+}
+/* Yes this website looks like ass but i think it does everything i want pretty well.
+It does not have too many useless features, it's straight forward and self explaining and it's easy
+and nice working with it.
+
+This website is just meant to be my own personal online space, my own little world for anyone to
+see and look at. I just want people having a good time here not impress them with the looks. 
+-Ren Jan. 12th 2026 */
